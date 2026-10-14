@@ -1,4 +1,4 @@
-```yaml
+
 name: Python CI CD Pipeline
 
 on:
@@ -48,4 +48,4 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v5
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-```
+
